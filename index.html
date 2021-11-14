@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Photo Album</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="styles.css"/>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col l3 m3 s6">
+      <a href="#HOME" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col l3 m3 s6">
+      <a href="#PREVIEW" class="w3-button w3-block w3-black">PRIVIEW</a>
+    </div>
+    <div class="w3-col l3 m3 s6">
+      <a href="#SHOWCASE" class="w3-button w3-block w3-black">SHOWCASE</a>
+    </div>
+    <div class="w3-col l3 m3 s6">
+      <a href="#ALBUM" class="w3-button w3-block w3-black">ALBUM</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="HOME">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag"></span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">PHOTO<br>ALBUM</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+  <!-- <span class="w3-text-white">2021</span> -->
+  </div>
+</header>
+
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand2 w3-large">
+<div class="w3-dark-gray w3-content" style="max-width:85%">
+
+
+<!-- About Container -->
+<div class="w3-container" id="PREVIEW">
+  <div class="w3-content" style="max-width:100%">
+    
+    <div class="w3-col l2 m2 s3">
+        <a href="#SHOWCASE">
+        <img src="https://i.imgur.com/PpPKxws.jpg" class="selected photo" id="p1">
+        </a>
+    </div>
+     <div class="w3-col l2 m2 s3">
+        <a href="#SHOWCASE">
+        <img src="https://i.imgur.com/vk5hKue.jpg" class="photo" id="p2">
+        </a>
+    </div>
+     <div class="w3-col l2 m2 s3">
+        <a href="#SHOWCASE">
+        <img src="https://i.imgur.com/ht23M1Q.jpg" class="photo" id="p3">
+        </a>
+    </div>
+     <div class="w3-col l2 m2 s3">
+        <a href="#SHOWCASE">
+        <img src="https://i.imgur.com/gMgkUq1.jpg" class="photo" id="p4">
+        </a>
+    </div>
+     <div class="w3-col l2 m2 s3">
+        <a href="#SHOWCASE">
+        <img src="https://i.imgur.com/Ep4LVfN.jpg" class="photo" id="p5">
+        </a>
+    </div>
+     <div class="w3-col l2 m2 s3">
+        <a href="#SHOWCASE">
+        <img src="https://i.imgur.com/1SzXuvJ.jpg" class="photo" id="p6">
+        </a>
+    </div>
+     <div class="w3-col l2 m2 s3">
+        <a href="#SHOWCASE">
+        <img src="https://i.imgur.com/N8M2FRK.jpg" class="photo" id="p7">
+        </a>
+    </div>
+     <div class="w3-col l2 m2 s3">
+        <a href="#SHOWCASE">
+        <img src="https://i.imgur.com/pIYCb6V.jpg" class="photo" id="p8">
+        </a>
+    </div>
+     <div class="w3-col l2 m2 s3">
+        <a href="#SHOWCASE">
+        <img src="https://i.imgur.com/1la1lok.jpg" class="photo" id="p9">
+        </a>
+    </div>
+     <div class="w3-col l2 m2 s3">
+        <a href="#SHOWCASE">
+        <img src="https://i.imgur.com/LGTge1w.jpg" class="photo" id="p10">
+        </a>
+    </div>
+     <div class="w3-col l2 m2 s3">
+        <a href="#SHOWCASE">
+        <img src="https://i.imgur.com/MC9iYAE.jpg" class="photo" id="p11">
+        </a>
+    </div>
+     <div class="w3-col l2 m2 s3">
+        <a href="#SHOWCASE">
+        <img src="https://i.imgur.com/1TITCXB.jpg" class="photo" id="p12">
+        </a>
+    </div>
+</div>
+</div>
+<!--SECTION END-->
+<div class="w3-padding-48"></div> 
+
+
+<div class="w3-container" id="SHOWCASE">
+<div class="w3-col l8 m8 s8 col_up" >
+</div>
+<div class="w3-col l2 m2 s2 col_up">
+    </div>
+<div class="w3-col l1 m1 s1 col_button">
+    <img src="https://i.imgur.com/kkIQSrA.png" alt="X" class="display_item center" id="Amplifier">
+    </div>
+<div class="w3-col l1 m1 s1 col_button">
+    <img src="https://i.imgur.com/Q2Xxnfr.png" alt="X" class="display_item center" id="XX">
+    </div>
+
+<div class="w3-col l1 m1 s1"  style="height: 85vh;">
+    <img src="https://i.imgur.com/CidiThf.png" alt="X" class="display_item center" id="left" onclick="left(this);">
+</div>
+<div class="w3-col l1 m1 s1" style="height: 85vh;">
+        <p></p>
+</div>
+<div class="w3-col l8 m8 s8" style="height: 85vh;"> 
+    <img src="https://i.imgur.com/PpPKxws.jpg" class="display center" id="showcase">
+</div>
+<div class="w3-col l1 m1 s1" style="height: 85vh;">
+        <p></p>
+</div>
+<div class="w3-col l1 m1 s1"  style="height: 85vh;">
+    <img src="https://i.imgur.com/7cQtWAG.png" alt="X"class="display_item center" id="right" onclick="right(this);">
+</div>
+
+<div class="w3-col l8 m8 s8 col_up">
+    </div>
+<div class="w3-col l2 m2 s2 col_up">
+    </div>
+<div class="w3-col l1 m1 s1 col_up">
+    </div>
+<div class="w3-col l1 m1 s1 col_up">
+</div>
+</div>
+
+<!--SECTION END-->
+<div class="w3-padding-48"></div> 
+
+
+<div class="w3-container" id="ALBUM">
+<h1>ALBUM ONE</h1>
+<a href="#PREVIEW"><div class="w3-col l12 m12 s12 album selected" id="album1" onclick="album1(this)">
+    <div class="w3-col l2 m2 s4"><img src="https://i.imgur.com/PpPKxws.jpg" class="album_item"></div>
+    <div class="w3-col l2 m2 s4"><img src="https://i.imgur.com/vk5hKue.jpg" class="album_item"></div>
+    <div class="w3-col l2 m2 s4"><img src="https://i.imgur.com/ht23M1Q.jpg" class="album_item"></div>
+    <div class="w3-col l2 m2 s4"><img src="https://i.imgur.com/gMgkUq1.jpg" class="album_item"></div>
+    <div class="w3-col l2 m2 s4"><img src="https://i.imgur.com/Ep4LVfN.jpg" class="album_item"></div>
+    <div class="w3-col l2 m2 s4"><img src="https://i.imgur.com/1SzXuvJ.jpg" class="album_item"></div>
+</div></a>
+
+<br>
+
+<h1>ALBUM TWO</h1>
+<a href="#PREVIEW"><div class="w3-col l12 m12 s12 album" id="album2" onclick="album2(this)">
+    <div class="w3-col l2 m2 s4"><img src="https://i.imgur.com/NQP8MxC.jpg" class="album_item"></div>
+    <div class="w3-col l2 m2 s4"><img src="https://i.imgur.com/GXUO5vL.jpg" class="album_item"></div>
+    <div class="w3-col l2 m2 s4"><img src="https://i.imgur.com/gn49BpQ.jpg" class="album_item"></div>
+    <div class="w3-col l2 m2 s4"><img src="https://i.imgur.com/M3KfEYq.jpg" class="album_item"></div>
+    <div class="w3-col l2 m2 s4"><img src="https://i.imgur.com/ydTjlm3.jpg" class="album_item"></div>
+    <div class="w3-col l2 m2 s4"><img src="https://i.imgur.com/5I1q7bU.jpg" class="album_item"></div>
+</div></a>
+
+<!-- <br>
+<h1>ALBUM CUSTOMIZATION</h1>
+<a href="#PREVIEW"><div class="w3-col l12 m12 s12 album" id="album_customization" onclick="album_customization(this)">
+    <div class="w3-col l2 m2 s4"><img src="https://i.imgur.com/NQP8MxC.jpg" class="album_item"></div>
+    <div class="w3-col l2 m2 s4"><img src="https://i.imgur.com/GXUO5vL.jpg" class="album_item" style="display: none;"></div>
+    <div class="w3-col l2 m2 s4"><img src="https://i.imgur.com/GXUO5vL.jpg" class="album_item" style="display: none;"></div>
+    <div class="w3-col l2 m2 s4"><img src="https://i.imgur.com/GXUO5vL.jpg" class="album_item" style="display: none;"></div>
+    <div class="w3-col l2 m2 s4"><img src="https://i.imgur.com/GXUO5vL.jpg" class="album_item" style="display: none;"></div>
+    <div class="w3-col l2 m2 s4"><img src="https://i.imgur.com/GXUO5vL.jpg" class="album_item" style="display: none;"></div>
+</div></a>
+<form class="w3-container w3-card-4 w3-sand2">
+  <h5>Add A Photo:</h5>
+  <p>      
+  <label>Photo src</label>
+  <input class="w3-input" type="text"></p>
+</form> -->
+
+</div>
+
+<!--END-->
+<br>
+<br>
+<br>
+
+</div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-large">
+  <p>Chian-Chen, 2021</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,3 +1,3 @@
 # poem-midterm
 
-just for midterm
+一個期中作品
